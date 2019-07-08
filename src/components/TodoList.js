@@ -11,7 +11,7 @@ export default function TodoList(props) {
           <li className={`fade-in ${done ? 'checked' : ''}`}>
           <span>{text}</span>
           <FaRegTimesCircle className="close" onClick={() =>onDelete(id)} />
-          <FaRegCheckCircle className="check" onClick={() =>onCheck(id)}  />
+          <FaRegCheckCircle className="check" onClick={() =>onCheck(id)} />
           </li>
         </Fragment>
       ))}
